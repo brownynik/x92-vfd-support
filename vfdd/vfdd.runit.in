@@ -1,0 +1,3 @@
+#!/bin/sh
+#insmod /lib/modules/4.19.4/extra/vfdmod.ko
+exec vfdd -L /var/log/vfdd.log 2>&1
